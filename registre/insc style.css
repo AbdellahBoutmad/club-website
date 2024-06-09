@@ -1,0 +1,71 @@
+.contenair{
+background-image:url(BB.jpg) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.tabl{
+    background-color: rgba(0, 0, 0, 0.61);
+    border: 8px rgb(255, 7, 193);
+    border-style:solid;
+    border-radius: 25px;
+    width: 450px;
+    height: 500px;
+    box-shadow: 50px 40px 30px black;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    color:white;
+}
+.titre{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hhh{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 0, 0);
+    font-size: 2em;
+    border-bottom: 3px solid rgb(223, 53, 81);
+
+}
+.hh{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(49, 0, 163);
+    font-size: 2em;
+    margin-left: 9px;
+    border-bottom: 3px solid rgb(223, 53, 81);
+
+}
+button{
+    background: linear-gradient(rgb(201, 60, 90), rgb(185, 129, 8));
+    width: 80%;
+    height: 27px;
+    margin-left: 10%;
+    color: white;
+}
+input{
+    height: 25px;
+    width: 220px;
+    border: rgb(255, 0, 0) 2px solid;
+    border-radius: 20px;
+}
+section{
+    border: solid 2px red;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(0, 255, 0),yellow);
+}
+.welcom{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(26, 2, 16);
+    font-size: 3em;
+}

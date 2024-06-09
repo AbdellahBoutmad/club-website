@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+
+        }
+        body{
+            background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(0, 0, 0, 0.651));
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .slider{
+            position: relative ;
+            width: 200px;
+            height: 200px;
+            transform-style: preserve-3d;
+            animation: rotate 30s linear infinite;
+        }
+        @keyframes rotate{
+            0%{
+                transform: perspective(1000px) rotateY(0deg);
+            }
+            100%{
+                transform: perspective(1000px) rotateY(360deg);
+
+            }
+        }
+        .slider span{
+            position:absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            transform-origin: center;
+            transform-style: preserve-3d;
+            transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+        }
+        .slider span img{
+            position:absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            border-radius: 40px;
+            object-fit: cover;
+            transition: 2S;
+        }
+        .slider span:hover img{
+            transform: translateY(-50px)scale(1.2);
+        }
+    </style>
+</head>
+<body>
+<div class="slider">
+    <span style="--i:1;"><img src="../images/p1.jpeg" alt=""></span>
+    <span style="--i:2;"><img src="../images/p2.jpeg" alt=""></span>
+    <span style="--i:3;"><img src="../images/p4.jpeg" alt=""></span>
+    <span style="--i:4;"><img src="../images/p5.jpeg" alt=""></span>
+    <span style="--i:5;"><img src="../images/p6.jpeg" alt=""></span>
+    <span style="--i:6;"><img src="../images/p7.jpeg" alt=""></span>
+    <span style="--i:7;"><img src="../images/p1.jpeg" alt=""></span>
+    <span style="--i:8;"><img src="../images/p9.jpeg" alt=""></span>
+</div>
+</body>
+</html>

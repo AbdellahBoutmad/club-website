@@ -1,0 +1,639 @@
+
+@media screen and (min-width:1280px) and (max-width: 1950px) {
+    #logo {
+        height: 400px;
+        width: 700px;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+ .row {
+     width: 100%;
+ }
+
+    .dropdown li {
+        padding-right: 40px;
+        font-size: 19px;
+    }
+
+    #logo {
+        height: 300px;
+        width: 400px;
+        margin-top: 8%;
+        margin-left: 27%;
+    }
+
+   .info_section h2 {
+        font-size: 2.2rem;
+    }
+    .first_section_info {
+        font-size: 20px;
+    }
+
+    .info_section i {
+        font-size: 60px;
+    }
+
+   .desc p {
+        font-size: 15px;
+    }
+
+   .images {
+       width: 100% !important;
+   }
+
+    .news_title {
+        margin-right: 15px;
+    }
+
+    .news_area {
+        height: 510px;
+    }
+
+
+    .news_data {
+        padding: 130px 0;
+    }
+
+    .news_data h2 {
+        font-size: 28px;
+    }
+
+    .news_data p {
+        font-size: 17px;
+    }
+
+    .news_data h3 {
+        width: 170px;
+        margin-right: 25px;
+    }
+
+    .plans > .large-3 {
+        margin-left: 5px;
+    }
+
+    .plans_container {
+        padding-left: 150px;
+    }
+
+    .plans_price p, .plans_price2 p {
+        font-size: 13px;
+    }
+
+    .plans_price h3, .plans_price2 h3 {
+        width: 220px;
+    }
+
+    .reviews p {
+        font-size: 16px;
+    }
+
+    .reviews_section {
+        padding-left: 50px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1092px) {
+
+    .social_links {
+        margin-right: 5px;
+        font-size: 10px;
+    }
+
+    .social_links_icon {
+        font-size: 14px !important;
+    }
+
+    .registration {
+        float: right !important;
+        font-size: 15px;
+    }
+
+    .top-bar {
+        height: 55px;
+    }
+
+    #logo {
+        height: 251px;
+        width: 350px;
+    }
+
+    #small_logo {
+        height: 50px;
+        width: 130px;
+        margin: 4px 10px 0 40px;
+    }
+
+    .dropdown li {
+        padding-top: 0;
+        font-size: 16px;
+    }
+
+    .news_data h2 {
+        font-size: 22px;
+    }
+
+    .news_data p {
+        font-size: 14px;
+    }
+
+    .news_data h3 {
+        width: 130px;
+        margin-right: 33px;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .news_area {
+        height: 410px;
+    }
+
+    .plans > .large-3 {
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+    .plans > .large-3 {
+        width: 29% !important;
+    }
+
+    .plans_price h1, .plans_price2 h1 {
+        font-size: 30px;
+    }
+
+    .plans_price h3, .plans_price2 h3 {
+        width: 170px;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+
+    .registration {
+        font-size: 13px;
+        padding-top: 3px;
+    }
+
+    #logo {
+        height: 151px;
+        width: 250px;
+    }
+
+    #logo {
+        margin-left: 31%;
+    }
+
+    .dropdown li {
+        font-size: 13px;
+        padding-right: 30px;
+    }
+
+    .top_phone{
+        width: 8.66667% !important;
+    }
+
+    .info_section h2 {
+        font-size: 1.9rem;
+    }
+
+    .first_section_info {
+        font-size: 17px;
+    }
+
+    .info_section i {
+        font-size: 45px;
+    }
+
+    .desc h3 {
+        font-size: 1.4375rem;
+    }
+
+    .desc p {
+        font-size: 12px;
+    }
+
+    .reveal {
+        padding: 5px;
+    }
+
+    .news_data p {
+        font-size: 12px;
+    }
+
+    .news_data h3 {
+        width: 100px;
+        margin-right: 20px;
+        font-size: 16px;
+        padding: 4px;
+        border: 1px solid #fff;
+    }
+
+
+    .plans > .large-3 {
+        width: 27% !important;
+    }
+
+    .plans_price, .plans_price2 {
+        height: 200px;
+        padding: 10px 5px;
+    }
+
+    .plans_price h5, .plans_price h1, .plans_price2 h5, .plans_price2 h1{
+        font-size: 16px;
+    }
+
+    .plans_price h3, .plans_price2 h3 {
+        width: 110px;
+        padding: 3px;
+        font-size: 14px;
+    }
+
+    .plans_price h3{
+        margin-top: 70px;
+    }
+
+    .review_title {
+        padding-top: 40px;
+    }
+
+    .review_title {
+        padding-top: 40px;
+        font-size: 33px;
+    }
+
+    .reviews_section, .reviews_section h2, .reviews_section p {
+        font-size: 14px;
+    }
+
+    .footer_menu {
+        font-size: 14px;
+    }
+
+    .bottom_menu a {
+        margin-left: 0;
+    }
+
+    .bottom_desc_right p {
+        font-size: 14px;
+    }
+
+    .bottom_desc h4 {
+        font-size: 16px;
+    }
+
+    .bottom_desc p {
+        font-size: 11px;
+    }
+
+    .bottom_social_urls {
+        padding-right: 35px;
+    }
+
+    .rights p {
+        font-size: 14px;
+    }
+
+    .top_social_bar div.large-2 {
+        width: 6.66667%;
+    }
+
+    .social_links_icon {
+        font-size: 10px !important;
+    }
+
+    .social_links {
+        font-size: 8px;
+    }
+
+    .dropdown li {
+        font-size: 9px;
+        padding-right: 20px;
+    }
+
+    #small_logo {
+        height: 40px;
+        width: 100px;
+        margin: 8px 10px 0 40px;
+    }
+
+
+
+    .bottom_social_urls {
+        padding-right: 20px;
+    }
+
+    .subscribe input {
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .top-bar .top-bar-left, .top-bar .top-bar-right {
+        width: 10%;
+    }
+
+    .social_urls {
+        padding: 0;
+    }
+
+    .top_phone {
+        width: 7.66667% !important;
+    }
+
+    .top_social_bar div.large-2 {
+        width: 5.66667%;
+    }
+
+    .registration {
+        font-size: 10px;
+    }
+
+    .bottom_social_urls {
+        padding-top: 16px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+    .plans_price h5, .plans_price h1, .plans_price2 h5, .plans_price2 h1{
+        font-size: 10px;
+    }
+
+
+    #logo {
+        height: 300px;
+        width: 450px;
+        margin-top: 30%;
+        margin-left: 21%;
+    }
+
+
+    .plans_price h3 {
+        margin-top: 47px;
+    }
+
+    .plans_price2 h3 {
+        width: 65px;
+        margin-top: 0;
+    }
+
+    .plans_price h3 {
+        width: 65px;
+        margin-top: 35px;
+    }
+
+    .plans_price, .plans_price2 {
+        height: 160px;
+        padding: 5px 5px;
+    }
+
+    .plans > .large-3 {
+        width: 25% !important;
+    }
+
+    .subscribe input[type="submit"] {
+        width: 120px;
+        background-color: #fff;
+    }
+
+    .subscribe input {
+        width: 170px;
+    }
+
+    .bottom_desc_right p {
+        font-size: 10px;
+    }
+
+    .bottom_desc h4 {
+        font-size: 12px;
+    }
+
+    .bottom_desc p {
+        font-size: 9px;
+    }
+
+    .rights p {
+        font-size: 11px;
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .top_social_bar div.large-2 {
+        width: 3.66667%;
+    }
+
+    .dropdown li {
+        font-size: 7px;
+        padding-right: 0;
+    }
+
+    .top-bar, .top-bar ul {
+
+        margin-right: 10px;
+    }
+
+    #small_logo {
+        height: 30px;
+        width: 130px;
+        margin: 15px 10px 0 40px;
+    }
+
+    #logo {
+        height: 190px;
+        width: 220px;
+        margin-top: 36%;
+        margin-left: 18%;
+    }
+
+    .info_section h2 {
+        font-size: 1.5rem;
+    }
+
+    .first_section_info {
+        font-size: 12px;
+    }
+
+    .info_section i {
+        font-size: 30px;
+    }
+
+    .desc h3 {
+        font-size: 1.1375rem;
+    }
+
+    .desc p {
+        font-size: 8px;
+    }
+
+    .reveal {
+        width: 50%;
+        height: 25vh;
+        min-height: 20vh;
+        margin-left: 130px;
+    }
+
+    .reveal img {
+        height: 133px;
+    }
+
+    .news_area {
+        height: 150px;
+    }
+
+    .news_data {
+        padding: 2px;
+    }
+
+    .news_data h2 {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .news_data p {
+        font-size: 7px;
+    }
+
+    .news_data h3 {
+        width: 50px;
+        margin-right: 3px;
+        font-size: 8px;
+        padding: 1px;
+    }
+
+
+    .plans_price p, .plans_price2 p {
+        font-size: 7px;
+    }
+
+    .plans > .large-3 {
+        width: 20% !important;
+        margin-left: 25px;
+    }
+
+    .plans_price h5, .plans_price h1, .plans_price2 h5, .plans_price2 h1 {
+        padding-top: 5px;
+        font-size: 5px;
+        margin-right: 13px;
+    }
+
+    .plans_price, .plans_price2 {
+        height: 100px;
+        padding: 0;
+    }
+
+    .plans_price p, .plans_price2 p {
+        font-size: 5px;
+    }
+
+    .plans_price2 h3, .plans_price h3 {
+        width: 35px;
+        margin-top: 40px;
+        font-size: 5px;
+        margin-right: 15px;
+    }
+
+
+    .review_title {
+        font-size: 18px;
+    }
+
+    .plans_title i {
+        right: 36.6%;
+    }
+
+    .reviewer_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .reviews_section, .reviews_section h2, .reviews_section p {
+        font-size: 9px;
+    }
+
+    .rating_img {
+        height: 10px;
+    }
+
+    .reviews_section, .reviews_section h2, .reviews_section p {
+        font-size: 6px;
+    }
+
+    .subscribe input {
+        width: 80px;
+    }
+
+
+    .subscribe p {
+        text-align: start;
+        color: #fff;
+        font-size: 13px !important;
+       float: none !important;
+
+    }
+
+    .bottom_menu ul li {
+        font-size: 8px;
+    }
+
+    .subscribe input[type="submit"] {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .subscribe input[type='text'] {
+        font-size: 10px;
+    }
+
+    .subscribe p {
+        /* text-align: center; */
+        color: #fff;
+        font-size: 23px;
+        /* float: right; */
+        clear: both;
+        padding-bottom: 20px;
+        margin-left: 190px;
+    }
+
+
+    .bottom_menu {
+        padding-right: 0;
+    }
+
+    .bottom_description {
+       padding-right: 0;
+    }
+
+    .bottom_menu  li > a {
+
+        width: 1px;
+    }
+
+
+    .bottom_desc h4 {
+        font-size: 8px;
+    }
+
+    .bottom_desc p {
+        font-size: 6px;
+    }
+
+    .bottom_desc_right h4 {
+        font-size: 10px;
+    }
+
+    .bottom_desc_right p {
+        font-size: 7px;
+    }
+
+    .bottom_social_urls {
+        padding-right: 6px;
+    }
+
+
+}
